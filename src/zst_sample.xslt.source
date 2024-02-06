@@ -1,0 +1,14 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+  <tt:template>
+    <!-- ... -->
+  </tt:template>
+  <tt:template name="TEMP_SUB">
+    <name>
+      <tt:value ref="$ref.name"/>
+    </name>
+    <work>
+      <tt:value ref="$ref.work"/>
+    </work>
+  </tt:template>
+</tt:transform>
